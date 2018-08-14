@@ -16,14 +16,28 @@
 * 30분 Go - <https://programmers.co.kr/learn/courses/13>{: target="_blank" }
 
 ### 변수
-#### 타입 생략
+#### Type 생략
 ```go
 myName := "Practice Golang"
 age := 1
 ```
 
 ### 배열류
-Map은 Thread safe하지 않다고 하니 사용 최소화
+Map은 Thread safe하지 않다고 하니 꼭 필요할 때만 사용
+#### 가변 배열 느낌의 Slice
+```go
+func main() {
+  var animals string
+  animal := "dog"
+  animals = append(animals, animal)
+  animal = "cat"
+  other_animal := "bear"
+  animals = append(animals, animal, other_animal
+
+  fmt.Printf("%+v\n", books)
+}
+```
+
 #### 다른 Type을 섞어 사용
 interface를 쓰면 되는데 사용할 때는 type assertion 필요
 ```go
