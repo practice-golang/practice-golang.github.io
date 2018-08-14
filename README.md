@@ -3,16 +3,15 @@
 준비. 일단은 두서없이 쓰기...
 
 ## 강좌
-* 고투어 국문 - https://go-tour-kr.appspot.com
-* 고투어 영문
-  * https://tour.golang.org
+* [고투어 국문](https://go-tour-kr.appspot.com)
+* [고투어 영문](https://tour.golang.org)
   * go가 설치되어 있다면 셸 또는 명령프롬프트에서 go tool tour
 
-* 예제로 배우는 GO 프로그래밍 - http://golang.site/
-* Go 프로그래밍 소개 국문 번역 - http://codingnuri.com/golang-book/
-* Go by example 국문 번역 - https://mingrammer.com/gobyexample/
-* 가장빨리만나는Go - http://pyrasis.com/go.html
-* 30분 Go - https://programmers.co.kr/learn/courses/13
+* [예제로 배우는 GO 프로그래밍](http://golang.site/)
+* [Go 프로그래밍 소개 국문 번역](http://codingnuri.com/golang-book/)
+* [Go by example 국문 번역](https://mingrammer.com/gobyexample/)
+* [가장빨리만나는Go](http://pyrasis.com/go.html)
+* [30분 Go](https://programmers.co.kr/learn/courses/13)
 
 ### 변수
 #### 바로 사용
