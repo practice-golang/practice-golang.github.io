@@ -8,9 +8,10 @@
   * <https://tour.golang.org>{: target="_blank" }
   * go가 설치되어 있다면 셸 또는 명령프롬프트에서 go tool tour
 
-* 예제로 배우는 GO 프로그래밍 - <http://golang.site/>{: target="_blank" }
 * Go 프로그래밍 소개 국문 번역 - <http://codingnuri.com/golang-book/>{: target="_blank" }
 * Go by example 국문 번역 - <https://mingrammer.com/gobyexample/>{: target="_blank" }
+* Go 언어 웹 프로그래밍 철저 입문 - <https://thebook.io/006806/>{: target="_blank" }
+* 예제로 배우는 GO 프로그래밍 - <http://golang.site/>{: target="_blank" }
 * 가장빨리만나는Go - <http://pyrasis.com/go.html>{: target="_blank" }
 * 30분 Go - <https://programmers.co.kr/learn/courses/13>{: target="_blank" }
 
