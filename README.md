@@ -3,7 +3,7 @@
 준비. 일단은 두서없이 쓰기...
 
 ## 강좌
-* [고투어 국문](https://go-tour-kr.appspot.com){: target="_blank" }
+* 고투어 국문 - <https://go-tour-kr.appspot.com>{: target="_blank" }
 * [고투어 영문](https://tour.golang.org){: target="_blank" }
   * go가 설치되어 있다면 셸 또는 명령프롬프트에서 go tool tour
 
