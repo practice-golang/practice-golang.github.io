@@ -45,7 +45,7 @@ func main() {
 }
 ```
 
-#### PHP vardump 또는 print_r 같은 일괄 출력 간단하게
+#### PHP vardump 또는 print_r 같은 일괄 출력
 %+v 또는 spew 패키지 사용
 
 ```go
