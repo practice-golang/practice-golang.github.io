@@ -16,7 +16,7 @@
 * 30분 Go - <https://programmers.co.kr/learn/courses/13>{: target="_blank" }
 
 ### 변수
-#### 바로 사용
+#### 타입 생략
 ```go
 myName := "Practice Golang"
 age := 1
