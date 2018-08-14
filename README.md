@@ -52,7 +52,7 @@ func main() {
   var books []interface{}
   book := Book{Title: "My First Book", Author: "Human"}
   books = append(books, book)
-  book = Book{Title: "My Second Book", Author: "Animal"}
+  book = Book{"My Second Book", "Animal"}
   what := "The Heck"
   books = append(books, book, what)
 
