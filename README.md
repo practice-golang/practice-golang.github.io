@@ -55,6 +55,12 @@ import (
 	"github.com/davecgh/go-spew/spew"
 )
 
+// Book : Book 정보
+type Book struct {
+	Title  string
+	Author string
+}
+
 func main() {
 	// var books []Book
 	var books []interface{}
