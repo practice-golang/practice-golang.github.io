@@ -32,7 +32,7 @@ func main() {
   animals = append(animals, animal)
   animal = "cat"
   other_animal := "bear"
-  animals = append(animals, animal, other_animal
+  animals = append(animals, animal, other_animal)
 
   fmt.Printf("%+v\n", books)
 }
