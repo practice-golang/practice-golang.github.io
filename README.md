@@ -20,7 +20,8 @@
 VScode, go extention의 inferGopath 설정을 true로 해서 쓰고 있다.  
 맞는 방법인지 모르겠지만 GOPATH와 bin, pkg, src 전체 트리를 프로젝트 단위로 격리시켜 쓰고 있는데,  
 go get 명령을 쓰지 않고, 아래와 같이 해야 작업에 문제가 없다.  
-* 깃헙(또는 빗바께스나 깃랩)소스 땡겨와서 빌드하기 - 예시 나의 helloworld 레포지터리
+* 깃헙(또는 빗바께스나 깃랩)소스 땡겨와서 빌드하기
+  * 예시: 나의 helloworld 레포지터리
 ```sh
 # 명령프롬프트 또는 vscode 터미널에서 아래와 같이 실행
 cd [vscode workspace 루트]
