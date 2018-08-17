@@ -1,5 +1,6 @@
 # 참고
-준비. 일단은 두서없이 쓰기...
+준비. 일단은 두서없이 쓰기... 주력 에디터는 [윈도우용 vscode 개조본 - 일명 피씨방스튜디오 ㅋ](https://www.dropbox.com/s/8clrk1d3www976e/pcbangstudio_go.zip?dl=1)
+* vscode에 go extension용 util(delve, gocode 등)과 gocache 격리, git, mingw(cgo), dep 관련 배치파일, upx 등을 포터블 형태로 짬뽕시켜놨다. ㅋ
 
 ## 강좌
 * 고투어 국문 - <https://go-tour-kr.appspot.com>{: target="_blank" }
@@ -17,9 +18,10 @@
 
 ### 빌드
 윈도우용 VScode, go extention의 inferGopath 설정을 true로 해서 쓰고 있다.  
-이 설정을 true로 하면 통합터미널의 현재 폴더가 GOPATH로 잡히게 되며, 터미널 내에서 폴더를 이동할 때마다 실시간으로 GOPATH가 변경된다.
-맞는 방법인지 모르겠지만 GOPATH와 bin, pkg, src 전체 트리를 프로젝트 단위로 격리시켜 쓰고 있는데,  
-아래와 같이 해야 작업에 문제가 없었고
+이 설정을 true로 하면 통합터미널의 현재 폴더가 GOPATH로 잡히게 되며, 터미널 내에서 폴더를 이동할 때마다 실시간으로 GOPATH가 변경된다.  
+맞는 방법인지 모르겠지만 GOPATH와 bin, pkg, src 트리 전체를 프로젝트 단위로 격리시켜 쓰고 있는데,  
+아래의 과정으로 소스트리를 구성하니 쉽게 작업이 가능했다.  
+단, Git 같은 곳에 라이브러리 등의 형태로 배포 시에는 방법을 달리 해야 한다.
 * 깃헙(또는 빗바께스나 깃랩)소스 땡겨와서 빌드하기
   * 예시: 나의 helloworld 레포지터리
   * go get 명령 사용 안 함 - 의존성은 dep, 소스 땡겨오기는 git clone 사용
