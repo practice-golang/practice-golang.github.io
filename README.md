@@ -1,5 +1,4 @@
 # 참고
-
 준비. 일단은 두서없이 쓰기...
 
 ## 강좌
@@ -16,16 +15,29 @@
 * 가장빨리만나는Go - <http://pyrasis.com/go.html>{: target="_blank" }
 * 30분 Go - <https://programmers.co.kr/learn/courses/13>{: target="_blank" }
 
-### 빌드 방법
-VScode, go extention의 inferGopath 설정을 true로 해서 쓰고 있다.  
+### 빌드
+윈도우용 VScode, go extention의 inferGopath 설정을 true로 해서 쓰고 있다.  
+이 설정을 true로 하면 통합터미널의 현재 폴더가 GOPATH로 잡히게 되며, 터미널 내에서 폴더를 이동할 때마다 실시간으로 GOPATH가 변경된다.
 맞는 방법인지 모르겠지만 GOPATH와 bin, pkg, src 전체 트리를 프로젝트 단위로 격리시켜 쓰고 있는데,  
-go get 명령을 쓰지 않고, 아래와 같이 해야 작업에 문제가 없다.  
+아래와 같이 해야 작업에 문제가 없었고
 * 깃헙(또는 빗바께스나 깃랩)소스 땡겨와서 빌드하기
   * 예시: 나의 helloworld 레포지터리
-```sh
+  * go get 명령 사용 안 함 - 의존성은 dep, 소스 땡겨오기는 git clone 사용
+  * dep init은 main이던 아니던, 패키지별로 모두 실행해야 함
+```powershell
 # 명령프롬프트 또는 vscode 터미널에서 아래와 같이 실행
 cd [vscode workspace 루트]
 git clone https://github.com/practice-golang/helloworld.git
+
+# dep init
+# - 아래 과정이 불편해서 배치파일로 만들어 쓰고 있다.
+# - Shift + F2 > dep init을 선택하면 현재 열린 go 소스가 저장된 패키지(=폴더) 기준으로 의존 패키지를 다운로드해준다.
+%프로젝트루트%/src/hello>cd ../..
+%프로젝트루트%>set GOPATH=%cd%;%GOPATH%
+%프로젝트루트%>cd src/hello
+%프로젝트루트%/src/hello>dep init
+# 또는
+%프로젝트루트%>dep init ./src/hello
 
 # vscode에서 helloworld 폴더를 작업영역으로 열고나서, vscode 터미널에서 아래와 같이 실행
 go build hello
