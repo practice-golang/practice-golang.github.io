@@ -52,6 +52,8 @@ git clone https://github.com/practice-golang/helloworld.git
 go build hello
 # 또는
 go install hello
+# 또는
+go run ./src/hello/hello.go
 ```
 
 ### 변수
