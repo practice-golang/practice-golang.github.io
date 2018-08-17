@@ -56,6 +56,9 @@ go install hello
 go run ./src/hello/hello.go
 ```
 
+### 패키지
+[helloworld](https://github.com/practice-golang/helloworld){: target="_blank" }
+
 ### 변수
 #### Type 생략
 ```go
