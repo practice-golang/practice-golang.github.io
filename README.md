@@ -1,7 +1,7 @@
 # 메모 - https://github.com/practice-golang
 준비. 일단은 두서없이 쓰기... 사용할 에디터는 [윈도우용 vscode 개조본 - 일명 피씨방스튜디오 ㅋ](https://www.dropbox.com/s/m05ikbkrtnx5pua/pcbangstudio_go.zip?dl=1)
 * vscode에 go extension용 util(delve, gocode 등)과 gocache 격리, git, mingw(cgo), dep 관련 배치파일, upx 등을 포터블 형태로 짬뽕시켜놨다. ㅋ
-* vscode 최신버전으로 업데이트: tools/vscode 폴더에서 아래 항목들 빼고 모두 삭제 > 최신 파일로 덮어씌움
+* vscode 최신버전으로 업데이트 방법: tools/vscode 폴더에서 아래 항목들 빼고 모두 삭제 > 최신 파일로 덮어씌움
   * data 폴더
   * run_main.bat
   * run_vscode.bat
