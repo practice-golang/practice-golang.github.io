@@ -35,7 +35,7 @@
 단, Git 같은 곳에 라이브러리 등의 형태로 배포 시에는 방법을 달리 해야 한다.
 * 깃헙(또는 빗바께스나 깃랩)소스 땡겨와서 빌드하기
   * 예시: 나의 [helloworld 레포지터리](https://github.com/practice-golang/helloworld){: target="_blank" }
-  * go get 명령 사용 안 함 - 의존성은 dep, 소스 땡겨오기는 git clone 사용
+  * **go get 명령 사용 안 함 - 의존성은 dep, 소스 땡겨오기는 git clone 사용**
   * dep init은 main이던 아니던, 패키지별로 모두 실행해야 함  
 
 ```powershell
