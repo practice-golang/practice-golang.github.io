@@ -8,12 +8,29 @@
   * <https://tour.golang.org>{: target="_blank" }
   * go가 설치되어 있다면 셸 또는 명령프롬프트에서 go tool tour
 
+* Let's Go - <https://www.slideshare.net/songaal/lets-go-45867246>{: target="_blank" }
 * Go 프로그래밍 소개 국문 번역 - <http://codingnuri.com/golang-book/>{: target="_blank" }
 * Go by example 국문 번역 - <https://mingrammer.com/gobyexample/>{: target="_blank" }
 * Go 언어 웹 프로그래밍 철저 입문 - <https://thebook.io/006806/>{: target="_blank" }
 * 예제로 배우는 GO 프로그래밍 - <http://golang.site/>{: target="_blank" }
 * 가장빨리만나는Go - <http://pyrasis.com/go.html>{: target="_blank" }
 * 30분 Go - <https://programmers.co.kr/learn/courses/13>{: target="_blank" }
+
+### 빌드 방법
+VScode, go extention의 inferGopath 설정을 true로 해서 쓰고 있다.
+맞는 방법인지 모르겠지만 GOPATH와 bin, pkg, src 전체 트리를 프로젝트 단위로 격리시켜 쓰고 있는데,
+go get 명령을 쓰지 않고, 아래와 같이 해야 작업에 문제가 없다.
+* 깃헙(또는 빗바께스나 깃랩)소스 땡겨와서 빌드하기 - 예시 나의 helloworld 레포지터리
+```sh
+# 명령프롬프트 또는 vscode 터미널에서 아래와 같이 실행
+cd [vscode workspace 루트]
+git clone https://github.com/practice-golang/helloworld.git
+
+# vscode에서 helloworld 폴더를 작업영역으로 열고나서, vscode 터미널에서 아래와 같이 실행
+go build hello
+# 또는
+go install hello
+```
 
 ### 변수
 #### Type 생략
