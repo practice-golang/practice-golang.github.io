@@ -21,6 +21,8 @@
 * 가장빨리만나는Go - <http://pyrasis.com/go.html>{: target="_blank" }
 * 30분 Go - <https://programmers.co.kr/learn/courses/13>{: target="_blank" }
 
+* Go 코드를 작성하는 방법 - <https://github.com/golang-kr/golang-doc/wiki/Go-코드를-작성하는-방법>{: target="_blank" }
+
 ## 진짜로 메모
 ### 빌드
 윈도우용 VScode, go extention의 inferGopath 설정을 true로 해서 쓰고 있다.  
