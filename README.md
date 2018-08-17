@@ -16,6 +16,7 @@
 * 가장빨리만나는Go - <http://pyrasis.com/go.html>{: target="_blank" }
 * 30분 Go - <https://programmers.co.kr/learn/courses/13>{: target="_blank" }
 
+## 진짜로 메모
 ### 빌드
 윈도우용 VScode, go extention의 inferGopath 설정을 true로 해서 쓰고 있다.  
 이 설정을 true로 하면 통합터미널의 현재 폴더가 GOPATH로 잡히게 되며, 터미널 내에서 폴더를 이동할 때마다 실시간으로 GOPATH가 변경된다.  
