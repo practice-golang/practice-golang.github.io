@@ -25,7 +25,8 @@
 * 깃헙(또는 빗바께스나 깃랩)소스 땡겨와서 빌드하기
   * 예시: 나의 helloworld 레포지터리
   * go get 명령 사용 안 함 - 의존성은 dep, 소스 땡겨오기는 git clone 사용
-  * dep init은 main이던 아니던, 패키지별로 모두 실행해야 함
+  * dep init은 main이던 아니던, 패키지별로 모두 실행해야 함  
+
 ```powershell
 # 명령프롬프트 또는 vscode 터미널에서 아래와 같이 실행
 cd [vscode workspace 루트]
