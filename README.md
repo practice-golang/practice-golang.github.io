@@ -1,7 +1,10 @@
 # 메모 - https://github.com/practice-golang
-준비.  
-목표는 프론트 Electron, 백 golang을 사용하여 간단하게 CRUD만 되는 PC용 앱 제작 - [이런거](http://www.insiderclub.org/module/go/SlimFrameworkAPI){: target="_blank" }  
-일단은 두서없이 쓰기... 사용할 에디터는 [윈도우용 vscode 개조본 - 일명 피씨방스튜디오 ㅋ](https://www.dropbox.com/s/m05ikbkrtnx5pua/pcbangstudio_go.zip?dl=1)
+준비. 일단은 두서없이 쓰기...  
+사용할 에디터는 [윈도우용 vscode 개조본 - 피씨방스튜디오](https://www.dropbox.com/s/m05ikbkrtnx5pua/pcbangstudio_go.zip?dl=1)  
+목표는 프론트 Electron, 백 golang을 사용하여 간단하게 CRUD만 되는 PC용 앱 제작
+- [Rest API 본 뜰 대상](http://www.insiderclub.org/module/go/SlimFrameworkAPI){: target="_blank" }  
+- 목표 달성: [Rest Client](https://github.com/practice-golang/rest-electron){: target="_blank" }, [Rest Server](https://github.com/practice-golang/rest-ql-crud){: target="_blank" }  
+
 * vscode에 go extension용 util(delve, gocode 등)과 gocache 격리, git, mingw(cgo), dep 관련 배치파일, upx 등을 포터블 형태로 짬뽕시켜놨다. ㅋ
 * vscode 최신버전으로 업데이트 방법: tools/vscode 폴더에서 아래 항목들 빼고 모두 삭제 > 최신 파일로 덮어씌움
   * data 폴더
