@@ -1,7 +1,7 @@
 # 메모 - https://github.com/practice-golang
 준비. 일단은 두서없이 쓰기...  
 사용할 에디터는 [윈도우용 vscode 개조본 - 피씨방스튜디오](https://www.dropbox.com/s/m05ikbkrtnx5pua/pcbangstudio_go.zip?dl=1)  
-목표는 프론트 Electron, 백 golang을 사용하여 간단하게 CRUD만 되는 PC용 앱 제작
+목표는 프론트: Electron, 백: golang을 사용하여 간단하게 CRUD만 되는 PC용 앱 제작
 - [Rest API 본 뜰 대상](http://www.insiderclub.org/module/go/SlimFrameworkAPI){: target="_blank" }  
 - 목표 달성: [Rest Client](https://github.com/practice-golang/rest-electron){: target="_blank" }, [Rest Server](https://github.com/practice-golang/rest-ql-crud){: target="_blank" }  
 
