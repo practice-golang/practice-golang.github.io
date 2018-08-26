@@ -20,6 +20,7 @@
   * go가 설치되어 있다면 셸 또는 명령프롬프트에서 go tool tour
 
 * Let's Go - <https://www.slideshare.net/songaal/lets-go-45867246>{: target="_blank" }
+* 효과적인 Go 프로그래밍 국문 번역 - <https://gosudaweb.gitbooks.io/effective-go-in-korean/>{: target="_blank" }
 * Go 프로그래밍 소개 국문 번역 - <http://codingnuri.com/golang-book/>{: target="_blank" }
 * Go by example 국문 번역 - <https://mingrammer.com/gobyexample/>{: target="_blank" }
 * Go 언어 웹 프로그래밍 철저 입문 - <https://thebook.io/006806/>{: target="_blank" }
