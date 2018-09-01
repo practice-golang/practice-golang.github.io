@@ -116,7 +116,7 @@ func main() {
 ```
 
 #### PHP vardump 또는 print_r 같은 일괄 출력
-%+v 또는 spew 패키지 사용
+%+v 또는 spew 패키지 사용. 아니면 그냥 fmt.Println
 
 ```go
 import (
