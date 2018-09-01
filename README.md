@@ -77,7 +77,7 @@ age := 1
 ```
 
 ### 배열류
-Map은 Thread safe하지 않다고 하니 꼭 필요할 때만 사용
+Map은 Thread safe하지 않다고 하는데 난 꼭 써야된다.
 #### 가변 배열 느낌의 Slice
 ```go
 func main() {
