@@ -27,6 +27,7 @@
 * 예제로 배우는 GO 프로그래밍 - <http://golang.site/>{: target="_blank" }
 * 가장빨리만나는Go - <http://pyrasis.com/go.html>{: target="_blank" }
 * 30분 Go - <https://programmers.co.kr/learn/courses/13>{: target="_blank" }  
+* LibQA - <http://libqa.com/wiki/826>{: target="_blank" }  
   
 * Go 코드를 작성하는 방법 - <https://github.com/golang-kr/golang-doc/wiki/Go-코드를-작성하는-방법>{: target="_blank" }
   * 2017년 중순에 이렇게 한 번 시도했다가 포기한 적이 있다.
