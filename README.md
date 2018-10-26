@@ -32,6 +32,12 @@
 * Go 코드를 작성하는 방법 - <https://github.com/golang-kr/golang-doc/wiki/Go-코드를-작성하는-방법>{: target="_blank" }
   * 2017년 중순에 이렇게 한 번 시도했다가 포기한 적이 있다.
 
+아래는 전부 영문
+* Go Web Example - <https://gowebexamples.com/>{: target="_blank" }  
+* Go Cookbook (Sumatra PDF 오쏘 / `예제로 배우는 Go 언어 활용법` 아님) - <https://blog.kowalczyk.info/book/go-cookbook.html>{: target="_blank" }  
+* Essential Go (Sumatra PDF 오쏘) - <https://www.programming-books.io/essential/go/>{: target="_blank" }  
+
+
 ## 진짜로 메모
 ### 빌드
 윈도우용 VScode, go extention의 inferGopath 설정을 true로 해서 쓰고 있다.  
