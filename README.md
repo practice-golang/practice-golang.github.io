@@ -26,8 +26,9 @@
 * Go 언어 웹 프로그래밍 철저 입문 - <https://thebook.io/006806/>{: target="_blank" }
 * 예제로 배우는 GO 프로그래밍 - <http://golang.site/>{: target="_blank" }
 * 가장빨리만나는Go - <http://pyrasis.com/go.html>{: target="_blank" }
-* 30분 Go - <https://programmers.co.kr/learn/courses/13>{: target="_blank" }  
-* LibQA - <http://libqa.com/wiki/826>{: target="_blank" }  
+* 언제나 휴일 - <http://ehpub.co.kr/%EA%B5%AC%EA%B8%80-go-%ED%95%98%EC%9E%90-1-%EA%B5%AC%EA%B8%80-go-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%96%B8%EC%96%B4-%EC%86%8C%EA%B0%9C/>{: target="_blank" }
+* 30분 Go - <https://programmers.co.kr/learn/courses/13>{: target="_blank" }
+* LibQA - <http://libqa.com/wiki/826>{: target="_blank" }
   
 * Go 코드를 작성하는 방법 - <https://github.com/golang-kr/golang-doc/wiki/Go-코드를-작성하는-방법>{: target="_blank" }
   * 2017년 중순에 이렇게 한 번 시도했다가 포기한 적이 있다.
