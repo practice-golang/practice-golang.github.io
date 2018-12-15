@@ -41,7 +41,17 @@
 
 ## 진짜로 메모
 ### 빌드
-윈도우용 VScode, go extention의 inferGopath 설정을 true로 해서 쓰고 있다.  
+`go 1.11`부터 `module`이란게 생겼고, 쌔가 빠지게 `GOPATH`에 적응했는데 이제 다 필요없다.  
+폴더 대충 만들어서 아래와 같이 하면 끝이다.
+```sh
+$ go mod init
+$ go build
+
+# go mod tidy는 바뀐 의존성 적용할 때만 쓰면 된다.
+```
+
+### 빌드 (=< go 1.10 & dep)
+윈도우용 VScode, go extention의 inferGopath 설정을 true로 해서 쓰고 ~~있다~~있었다.  
 근데, 위 설정이 통합터미널에서는 안먹혀서 스크립트로 GOPATH=현재workspace로 강제하게 했다.  
 맞는 방법인지 모르겠지만 GOPATH 루트 즉, bin, pkg, src 트리 전체를 프로젝트 단위로 격리시켜 쓰고 있는데,  
 이 형태로 소스트리를 구성하니 아래의 과정으로 빌드와 소스 관리를 쉽게 할 수 있었다.  
@@ -75,7 +85,14 @@ go run ./src/hello/hello.go
 ```
 
 ### 패키지
-[helloworld](https://github.com/practice-golang/helloworld){: target="_blank" }
+#### =< 1.10
+* [helloworld](https://github.com/practice-golang/helloworld){: target="_blank" }
+#### go mod
+* [go111module-pkghello](https://github.com/practice-golang/go111module-pkghello){: target="_blank" }
+* [go111module-localpkg](https://github.com/practice-golang/go111module-localpkg){: target="_blank" }
+* [Just for Func](https://github.com/campoy/embedmd){: target="_blank" }
+    * 동영상 - https://www.youtube.com/watch?v=H_4eRD8aegk
+
 
 ### 변수
 #### Type 생략
@@ -123,7 +140,7 @@ func main() {
 }
 ```
 
-#### PHP vardump 또는 print_r 같은 일괄 출력
+#### PHP vardump 또는 print_r 같은 출력
 %+v 또는 spew 패키지 사용. 아니면 그냥 fmt.Println
 
 ```go
